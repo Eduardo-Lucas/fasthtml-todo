@@ -5,6 +5,8 @@ A small todo list built with [FastHTML](https://fastht.ml). Pages are rendered o
 [fastlite](https://github.com/AnswerDotAI/fastlite), and the styling comes from [Pico CSS](https://picocss.com).
 There's no JavaScript build step and no separate frontend.
 
+![The todo list with an input for new todos, two finished items crossed out and three open ones](docs/screenshot.png)
+
 ## Requirements
 
 - Python 3.13
@@ -33,6 +35,7 @@ app/
   components.py    HTML fragments (todo item, form, list)
   db.py            Todo dataclass and the SQLite table
 static/style.css   styles added on top of Pico
+docs/              README assets
 ```
 
 ## How it works
