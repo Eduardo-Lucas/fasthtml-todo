@@ -1,0 +1,13 @@
+#todo-list { padding: 0; }
+
+#todo-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#todo-list li span { flex: 1; }
+#todo-list li button { width: auto; padding: 0.2rem 0.6rem; margin: 0; }
+
+.done { text-decoration: line-through; opacity: 0.6; }
